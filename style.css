@@ -720,7 +720,7 @@
     }
 
     .new-bage {
-        transform: translate(50px, -160px);
+        transform: translate(50px, -170px);
         position: absolute;
         z-index: 2;
     }
