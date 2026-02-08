@@ -478,10 +478,10 @@
     }
 
     .back-ground-img {
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 460px;
+        background-size: 100%;
+        /* background-repeat: no-repeat; */
+        /* width: 100%; */
+        /* height: 460px; */
     }
 
     /* footer section */
@@ -520,11 +520,21 @@
         padding: 3px 0;
     }
 
+    /* feature section */
+
+
     .feature-card-container {
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
         justify-content: center;
         gap: 2px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+
+    .feature-container {
+        padding-bottom: 40px;
     }
 
     .feature-card iframe {
@@ -540,4 +550,148 @@
         margin-top: 0;
         padding-top: 25px;
     }
+
+    .feature-container .titel-heading {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    /* meet-the host */
+    .Meet-the-host {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+    }
+
+    .host-contant {
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .alex-img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .alex-nam {
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+    }
+
+    .host-contant p {
+        font-size: 14px;
+        color: #FFFFFF;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+
+    .social-icon {
+        justify-content: center;
+    }
+
+    /* banifits-conainer */
+    .banifits-conainer {
+        margin: 0 auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .card-container {
+        margin-top: 10px;
+        padding-bottom: 50px;
+
+    }
+
+    .banifits-conainer h2 {
+        padding-top: 20px;
+    }
+
+    .titel-heading {
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 35px;
+    }
+
+    .banifit-card p {
+        line-height: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .card-container {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .banifit-card {
+        gap: 15px;
+        grid-column: span 3;
+        grid-row: span 1;
+        padding: 15px 20px;
+    }
+
+    .banifit-card-2 {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .banifit-card-3 {
+        grid-column: span 3;
+        grid-row: span 1;
+
+    }
+
+    .banifit-card-4 {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    /* about section */
+    .about-section {}
+
+    .about-container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .titel-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-top: 40px;
+    }
+
+    /* .about-p {
+    line-height: 20px;
+} */
+
+    .line {
+        width: 80%;
+        height: 1px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-rating {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding-bottom: 60px;
+    }
+
+    .reting p {
+        padding-top: 8px;
+    }
+
 }
