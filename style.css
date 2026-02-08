@@ -655,8 +655,6 @@
     }
 
     /* about section */
-    .about-section {}
-
     .about-container {
         width: 100%;
         margin: 0 auto;
@@ -668,11 +666,6 @@
         font-weight: 700;
         padding-top: 40px;
     }
-
-    /* .about-p {
-    line-height: 20px;
-} */
-
     .line {
         width: 80%;
         height: 1px;
