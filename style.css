@@ -477,22 +477,6 @@
         padding-right: 20px;
     }
 
-    .back-ground-img {
-        background-size: 100%;
-        /* background-repeat: no-repeat; */
-        /* width: 100%; */
-        /* height: 460px; */
-    }
-
-    /* footer section */
-
-    .footer-bg {
-        /* width: 100%; */
-        background-size: 100% 200px;
-        background-repeat: no-repeat;
-
-    }
-
     .foooter-container {
         /* border: 1px solid red; */
         margin: 0 auto;
@@ -666,6 +650,10 @@
         font-weight: 700;
         padding-top: 40px;
     }
+    .about-p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .line {
         width: 80%;
         height: 1px;
@@ -687,4 +675,48 @@
         padding-top: 8px;
     }
 
+    /* header */
+    .back-ground-img {
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    height: 360px;
+    background-size: contain;
+
+}
+
+    .back-ground-img {
+           background-size: 100% 360px;
+        background-repeat: no-repeat;
+
+    }
+.hero-cercle {
+    background-size: 100%;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.hero-cercle img {
+    width: 60px;
+    height: 90px;
+}
+
+.banner-headding {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 2px;
+}
+
+.banner-p {
+    padding-bottom:8px;
+    font-weight: 500;
+
+}
+
+
+.banner-btn{
+    height:100% ;
+}
 }
