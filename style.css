@@ -118,12 +118,27 @@
 }
 
 /* heder section */
+
+
+
 .back-ground-img {
     background-image: url(./assets/hero-bg.png);
     width: 100%;
     height: 760px;
     background-size: contain;
+    position: relative;
 
+}
+
+.new-bage {
+    color: black;
+    font-weight: 600;
+    background-color: #00FF88;
+    border-radius: 18px;
+    padding: 8px 15px;
+    transform: translate(100px, -240px);
+    position: absolute;
+    z-index: 10;
 }
 
 .banner-section {
@@ -650,10 +665,12 @@
         font-weight: 700;
         padding-top: 40px;
     }
-    .about-p{
+
+    .about-p {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .line {
         width: 80%;
         height: 1px;
@@ -677,46 +694,53 @@
 
     /* header */
     .back-ground-img {
-    background-image: url(./assets/hero-bg.png);
-    width: 100%;
-    height: 360px;
-    background-size: contain;
+        background-image: url(./assets/hero-bg.png);
+        width: 100%;
+        height: 360px;
+        background-size: contain;
 
-}
+    }
 
     .back-ground-img {
-           background-size: 100% 360px;
+        background-size: 100% 360px;
         background-repeat: no-repeat;
 
     }
-.hero-cercle {
-    background-size: 100%;
-    background-position: center;
-    width: 140px;
-    height: 140px;
-    margin-top: 35px;
-    margin-bottom: 0;
-}
 
-.hero-cercle img {
-    width: 60px;
-    height: 90px;
-}
+    .hero-cercle {
+        background-size: 100%;
+        background-position: center;
+        width: 140px;
+        height: 140px;
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
 
-.banner-headding {
-    font-size: 3rem;
-    font-weight: 900;
-    padding-bottom: 2px;
-}
+    .hero-cercle img {
+        width: 60px;
+        height: 90px;
+    }
 
-.banner-p {
-    padding-bottom:8px;
-    font-weight: 500;
+    .new-bage {
+        transform: translate(50px, -160px);
+        position: absolute;
+        z-index: 2;
+    }
 
-}
+    .banner-headding {
+        font-size: 3rem;
+        font-weight: 900;
+        padding-bottom: 2px;
+    }
+
+    .banner-p {
+        padding-bottom: 8px;
+        font-weight: 500;
+
+    }
 
 
-.banner-btn{
-    height:100% ;
-}
+    .banner-btn {
+        height: 100%;
+    }
 }
