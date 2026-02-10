@@ -492,13 +492,21 @@
         padding-right: 20px;
     }
 
+    /* footer section */
+
+    .footer-bg {
+    width: 100%;
+    background-size: contain;
+    background-repeat: repeat-y;
+     padding-bottom: 0;
+     
+
+}
     .foooter-container {
-        /* border: 1px solid red; */
-        margin: 0 auto;
-        width: 100%;
         text-align: center;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 0;
+       
 
     }
 
@@ -509,7 +517,7 @@
 
     .footer-p {
         font-size: 13px;
-        /* line-height: 24px; */
+        padding-bottom: 2px;
     }
 
     .footer-website {
