@@ -127,6 +127,17 @@
     height: 760px;
     background-size: contain;
     position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.back-ground-img {
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    /* height: 760px; */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
 
 }
 
@@ -196,7 +207,7 @@
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    margin-bottom: 100px;
+    /* margin-bottom: 0; */
 
 }
 
