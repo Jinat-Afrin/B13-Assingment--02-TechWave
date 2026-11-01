@@ -4,8 +4,8 @@ TechWave is a responsive website project created as part of Programming Hero's W
 The project focuses on building a clean and attractive user interface using HTML and CSS.
 ## Technologies Used
 </> markdown
-*HTML5
-*CSS3 <br>
+HTML5 <br>
+CSS3 <br>
 ## Features <br>
 Responsive design <br>
 Clean and modern user interface  <br>
